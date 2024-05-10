@@ -1,0 +1,7 @@
+POST http://localhost:3000/messages/update-msg-status
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VybmFtZSI6IlN0ZXBoIiwiaWF0IjoxNzE1MDA3NTQ4LCJleHAiOjE3MTUwNDM1NDh9.GoVWoEEoplgbUKckAwl3jxMbvqwvzc3lcECBQkUhkYQ
+{
+  "msgId": 97,
+  "chatroomId" : "a9042974-ef8e-4de0-bf56-ffab7890f058"
+}
