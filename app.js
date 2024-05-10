@@ -71,7 +71,7 @@ io.on('connection', (socket) => {
 
 
 // Define port for Express server
-const PORT = process.env.SERVER_PORT;
+const PORT = process.env.PORT || 10000;
 
 // Start the combined server
 server.listen(PORT, () => {
